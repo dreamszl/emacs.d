@@ -2,12 +2,12 @@
       org-default-notes-file "~/Documents/org/inbox.org"
       org-directory "~/Documents/org"
       exec-path-from-shell-arguments '("-i"))
-
 ;;====================================================
 ;; eclim mode settings
 ;;====================================================
+
 (require 'eclim)
-(setq eclimd-autostart t)
+(setq eclimd-autostart nil)
 
 (defun my-java-mode-hook ()
   (eclim-mode t))
@@ -29,6 +29,24 @@
 
 (setq company-minimum-prefix-length 2)
 (setq company-idle-delay 0)
+
+
+;;====================================================
+;; org mode soft wrap
+;;====================================================
+
+(add-hook 'org-mode-hook #'(lambda ()
+                             (visual-line-mode)
+                             (org-indent-mode)))
+
+;;====================================================
+;; org mode soft wrap
+;;====================================================
+
+(setq org-pandoc-options '((standalone . t)))
+(setq org-pandoc-options-for-beamer-pdf '((latex-engine . "xelatex")))
+(setq org-pandoc-options-for-latex-pdf '((latex-engine . "xelatex")))
+
 ;;====================================================
 
 (provide 'init-local)
