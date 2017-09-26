@@ -108,5 +108,4 @@
   (after-load 'js2-mode
     (add-hook 'js2-mode-hook 'add-node-modules-path)))
 
-
 (provide 'init-javascript)
