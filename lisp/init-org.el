@@ -369,6 +369,7 @@ typical word processor."
      (ocaml . nil)
      (octave . t)
      (python . t)
+     (java . t)
      (ruby . t)
      (screen . nil)
      (,(if (locate-library "ob-sh") 'sh 'shell) . t)

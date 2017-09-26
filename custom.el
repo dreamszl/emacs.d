@@ -12,7 +12,7 @@
  '(eclimd-default-workspace "~/softwares/eclipse")
  '(indent-tabs-mode t)
  '(org-startup-truncated nil)
- '(package-selected-packages (quote (ox-pandoc company-emacs-eclim fullframe)))
+ '(package-selected-packages (quote (vue-mode ox-pandoc company-emacs-eclim fullframe)))
  '(session-use-package t nil (session))
  '(tab-width 4))
 (custom-set-faces
