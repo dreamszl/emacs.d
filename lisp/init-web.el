@@ -17,7 +17,7 @@
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jsp\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.js[x]\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . web-mode))
 
 (set-face-attribute 'web-mode-html-tag-face nil :foreground "chocolate3")
 (set-face-attribute 'web-mode-html-attr-name-face nil :foreground "YellowGreen")

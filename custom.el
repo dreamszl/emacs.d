@@ -10,7 +10,7 @@
  '(eclim-eclipse-dirs (quote ("~/softwares/eclipse")))
  '(eclim-executable "~/softwares/eclipse/eclim")
  '(eclimd-default-workspace "~/softwares/eclipse")
- '(indent-tabs-mode t)
+ '(indent-tabs-mode nil)
  '(org-startup-truncated nil)
  '(package-selected-packages (quote (vue-mode ox-pandoc company-emacs-eclim fullframe)))
  '(session-use-package t nil (session))
