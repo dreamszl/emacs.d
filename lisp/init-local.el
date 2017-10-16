@@ -6,22 +6,22 @@
 ;; eclim mode settings
 ;;====================================================
 
-(require 'eclim)
-(setq eclimd-autostart nil)
+;; (require 'eclim)
+;; (setq eclimd-autostart nil)
 
-(defun my-java-mode-hook ()
-  (eclim-mode t))
+;; (defun my-java-mode-hook ()
+;;   (eclim-mode t))
 
-(add-hook 'java-mode-hook 'my-java-mode-hook)
+;; (add-hook 'java-mode-hook 'my-java-mode-hook)
 
-(custom-set-variables
- '(eclim-eclipse-dirs '("~/softwares/eclipse"))
- '(eclim-executable "~/softwares/eclipse/eclim")
- '(eclimd-default-workspace "~/softwares/eclipse"))
+;; (custom-set-variables
+;;  '(eclim-eclipse-dirs '("~/softwares/eclipse"))
+;;  '(eclim-executable "~/softwares/eclipse/eclim")
+;;  '(eclimd-default-workspace "~/softwares/eclipse"))
 
-(require 'company-emacs-eclim)
-(company-emacs-eclim-setup)
-(global-company-mode t)
+;; (require 'company-emacs-eclim)
+;; (company-emacs-eclim-setup)
+;; (global-company-mode t)
 
 ;;====================================================
 ;; company idle completion settings
