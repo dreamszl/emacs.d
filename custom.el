@@ -15,7 +15,7 @@
  '(org-startup-truncated nil)
  '(package-selected-packages
    (quote
-    (gradle-mode vue-mode ox-pandoc company-emacs-eclim fullframe)))
+    (groovy-mode gradle-mode vue-mode ox-pandoc company-emacs-eclim fullframe)))
  '(session-use-package t nil (session))
  '(tab-width 4))
 (custom-set-faces
